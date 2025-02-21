@@ -17,3 +17,13 @@ while choice == "y":
         pass
 
 print(total)
+
+""" 
+num1 = int(input("Enter a number: "))
+total = num1
+while again =="y":
+    num2 = int(input("Enter another number : "))
+    total = total + num2
+    again = input("Do you want to add another number? (y/n) ")
+print("The total is ",total)
+"""

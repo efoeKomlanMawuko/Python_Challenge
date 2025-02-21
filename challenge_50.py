@@ -4,14 +4,12 @@
 # this until they enter a value that is between 10 and 20 and then display the message
 # "Thank you"
 
-number = 0
+number = int(input("Enter a number between 10 and 20 : "))
 
-while (number < 10 and 20 < number):
-    number = int(input("Enter a number between 10 and 20 : "))
+while (number < 10 or 20 < number):
     if number < 10:
         print("Too low...")
-    elif 20 < number:
+    else :
         print("Too high...")
-    else:
-        print("Thank you !")
-print("Out of loop")
+    number = int(input("Try again: "))
+print("Thank you !")

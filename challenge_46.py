@@ -4,7 +4,7 @@
 
 number = 0
 
-while number < 5:
+while number <= 5:
     number = int(input("Enter a number : "))
 
 print("The last  number was",number)

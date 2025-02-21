@@ -2,5 +2,5 @@
 # making sure you show the number entered in the output.
 number = int(input("Enter a number below 50 : "))
 print("The number entered is",number)
-for i in range(50-number+1):
-    print(50-i)
+for i in range(50-number+1): #for i in range(50,num-1,-1):
+    print(50-i) #print (i)

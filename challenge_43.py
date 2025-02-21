@@ -13,8 +13,8 @@ if sens == "up":
 elif sens == "down":
     below = int(input("Enter a number below 20 : "))
     scale = 20 - below
-    for i in range(scale+1):
-        resultat = 20 - i
+    for i in range(scale+1): #for i in range(20,num-1, -1)
+        resultat = 20 - i #print(i)
         print(resultat)
 else:
     print("I don't understand")

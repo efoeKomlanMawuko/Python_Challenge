@@ -5,15 +5,11 @@
 # comming to the party.
 
 count = 0
-
-invite = input("Enter the name of someone you want to invite to a party : ")
-print(invite,"has now be invited")
-count += 1
 add = "y"
-while add == "y" :
+while add=="y":
+    invite = input("Enter the name of someone you want to invite to a party : ")
+    print(invite,"has now be invited")
+    count += 1
     add = input("Do you want to invite someone else ? y or n : ")
-    if add == "y":
-        count += 1
-    else:
-        pass
+
 print(count,"people(s) have coming to the party")
