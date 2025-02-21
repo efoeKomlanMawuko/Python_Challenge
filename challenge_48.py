@@ -2,5 +2,18 @@
 # dipslay the message "[name] has now be invited" and add 1 to the count. Then
 # ask if they want to invite sombody else. Keep repeating this until the no longer
 # want to invite anyone else to the party and then display how many poeple they have
-# comming to the party
+# comming to the party.
 
+count = 0
+
+invite = input("Enter the name of someone you want to invite to a party : ")
+print(invite,"has now be invited")
+count += 1
+add = "y"
+while add == "y" :
+    add = input("Do you want to invite someone else ? y or n : ")
+    if add == "y":
+        count += 1
+    else:
+        pass
+print(count,"people(s) have coming to the party")
